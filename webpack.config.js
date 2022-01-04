@@ -27,7 +27,7 @@ module.exports = (env = {}) => {
             plugins.push(new MiniCssExtractPlugin({
                 filename: isProd ? 'style/main.css' : undefined
             }));
-        };
+        }
 
         return plugins;
     };
